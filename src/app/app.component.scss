@@ -1,0 +1,66 @@
+.container-fluid {
+  background: rgb(255, 212, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 212, 231, 1) 0%,
+    rgba(103, 231, 255, 1) 100%
+  );
+  height: 100vh;
+}
+.container {
+  form {
+    text-align: center;
+    padding: 5rem 0;
+    input {
+      border: 2px solid grey;
+      border-radius: 4px;
+      width: 24rem;
+      height: 38px;
+      vertical-align: middle;
+      background-color: transparent;
+    }
+  }
+  place-content: center;
+}
+
+.itemRows {
+  .todoTask {
+    background-color: #f8f9fa;
+    max-width: 60%;
+    margin: 8px auto;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #adb5bd;
+    border-radius: 4px;
+  }
+  .bi-trash-fill {
+    float: right;
+    margin-top: 6px;
+    color: #83898e;
+  }
+
+  .taskDone {
+    max-width: 60%;
+    margin: 8px auto;
+    text-decoration: line-through;
+    background-color: rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #adb5bd;
+    border-radius: 4px;
+  }
+
+  height: 50%;
+  overflow-y: overlay;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  padding: 2rem 0;
+}
+.noData {
+  font-size: 42px;
+  color: white;
+  text-align: center;
+}
